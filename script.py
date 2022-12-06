@@ -34,6 +34,11 @@ x = sorted(x)
 #print out the last item on the list meaning
 #it's the largest
 print(x[-1])
+
+####### PART TWO OF THE CHALLENGE ########
+#Find the sum of the top three most calories
+print(sum(x[-3:]))
+
     
     
 
